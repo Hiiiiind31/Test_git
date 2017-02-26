@@ -16,5 +16,6 @@ public class MainActivity extends AppCompatActivity {
 
         TextView textView = (TextView) findViewById(R.id.text1);
         textView.setText("hello world");
+        textView.setTextSize(10);
     }
 }
